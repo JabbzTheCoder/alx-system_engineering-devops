@@ -49,8 +49,3 @@ What you should learn from this project:
 
 ### [6. Install Nginx web server (w/ Puppet)](./7-puppet_install_nginx_web_server.pp)
 * Time to practice configuring your server with Puppet! Just as you did before, we’d like you to install and configure an Nginx server using Puppet instead of Bash. To save time and effort, you should also include resources in your manifest to perform a 301 redirect when querying /redirect_me.
-
----
-
-## Author
-* **Arturo Victoria Rincon** - [arvicrin](https://github.com/arvicrin)
