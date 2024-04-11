@@ -1,0 +1,45 @@
+**Behind the Scenes: Your Journey to Google**
+
+Have you ever wondered what happens in the blink of an eye when you type a website address (URL) into your browser and press Enter? It might seem like magic, but a complex series of interactions occur behind the scenes to deliver the content you see on your screen. This blog post dives into the exciting world of the web stack, explaining the fascinating journey from URL to web page.
+
+**The DNS Request: Decoding the Address**
+
+Imagine the internet as a giant city with countless buildings (websites). Each building has a unique address, but instead of street names and numbers, websites use domain names like "[www.google.com](https://www.google.com)". This is where the **Domain Name System (DNS)** comes in. It acts like a phonebook for the internet, translating these user-friendly domain names into numerical IP addresses that computers can understand.
+
+When you type "[https://www.google.com](https://www.google.com)" in your browser, it sends a DNS request to a DNS server. This server then looks up the domain name "[www.google.com](https://www.google.com)" in its database and retrieves the corresponding IP address, which might be something like "142.250.184.196" (example for illustrative purposes, actual IP addresses can change).
+
+**TCP/IP: The Language of Communication**
+
+Now that the browser knows the numerical address (IP address) of Google, it can initiate communication. This communication happens using a set of protocols called **TCP/IP (Transmission Control Protocol/Internet Protocol)**. TCP/IP acts like a universal language for computers to exchange information across the internet. It ensures data is broken down into manageable packets, transmitted efficiently, and reassembled correctly at the destination.
+
+**Firewall: The Gatekeeper**
+
+Before the data reaches Google's servers, it might pass through a **firewall**. This security system acts as a gatekeeper, monitoring incoming and outgoing traffic and filtering out any potential threats or unauthorized access attempts.
+
+**HTTPS/SSL: Encryption for a Secure Journey**
+
+The "https" in the URL indicates a secure connection using **Hypertext Transfer Protocol Secure (HTTPS)**. HTTPS utilizes **Secure Sockets Layer (SSL)** or its successor **Transport Layer Security (TLS)** to encrypt the communication between your browser and the website. Encryption scrambles the data being sent, making it unreadable to anyone who might intercept it, thus protecting your privacy and sensitive information.
+
+**Load Balancer: Distributing the Workload**
+
+Large websites like Google often have multiple servers to handle the high volume of traffic. A **load balancer** acts as a traffic director, distributing incoming requests efficiently among these servers. This ensures smooth performance and prevents any single server from becoming overloaded.
+
+**Web Server: Delivering the Content**
+
+The browser's request finally reaches a **web server**. The web server is the software program responsible for storing, processing, and delivering web page content. It interprets the request, retrieves the relevant files (HTML, CSS, JavaScript) from its storage, and sends them back to your browser.
+
+**Application Server (Optional): Dynamic Interactions**
+
+Some websites use an additional layer called an **application server**. This server handles complex logic and database interactions to generate dynamic content tailored to your specific needs. For instance, when you search on Google, the application server interacts with a database to retrieve the search results.
+
+**Database: The Information Powerhouse**
+
+Many websites rely on databases to store and manage information. These databases can be relational (structured data) or NoSQL (unstructured data), depending on the website's needs. In Google's case, the database stores vast amounts of information used to power search results, user accounts, and other functionalities.
+
+**Rendering the Page: Bringing it all Together**
+
+Once the browser receives all the necessary files (HTML, CSS, JavaScript) from the web server (and potentially the application server), it puts them together like building blocks. The browser interprets the HTML code to structure the content, applies CSS styles for visual appearance, and executes JavaScript code to add interactivity. Finally, you see the familiar Google webpage displayed on your screen.
+
+**Conclusion: A Collaborative Effort**
+
+The journey from typing a URL to seeing a web page is a fascinating example of collaboration between various technologies. From DNS resolving the address to web servers delivering content, each component plays a vital role. Understanding these web stack elements empowers you to appreciate the intricate workings of the internet and the magic behind every website you visit.
